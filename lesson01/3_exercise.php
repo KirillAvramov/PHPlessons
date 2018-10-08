@@ -1,5 +1,6 @@
 <?php
-class Human {
+class Human
+{
     private $firstName, $lastName, $middleName;
     private $age;
 
@@ -14,7 +15,8 @@ class Human {
         $this->age = $age;
     }
 
-    public function birthday() {
+    public function birthday()
+    {
        return $this->age++;
     }
 
