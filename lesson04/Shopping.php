@@ -7,9 +7,9 @@ class Shopping
 {
     public static function showBag(Bag $bag)
     {
-        foreach ($bag->items as &$item) {
+        foreach ($bag->getItems() as &$item) {
             echo "Name: {$item->name}     Price: {$item->price}     Price with discount: " .
-                $item->price - $item->price * ($item->discount + $bag->personDisc + $bag->forSaleDisc) / 100 . PHP_EOL;
+                $item->price - $item->price * ($item->discount + $bag->getPersonDisc() + $bag->getForSaleDisc()) / 100 . PHP_EOL;
         }
     }
 
@@ -26,7 +26,7 @@ class Shopping
     public static function getPrice(Bag $bag)
     {
         $price = 0;
-        foreach ($bag->items as &$item) {
+        foreach ($bag->getItems() as &$item) {
             $price += $item->price;
         }
         return $price;
@@ -35,8 +35,8 @@ class Shopping
     public static function getDiscPrice(Bag $bag)
     {
         $price = 0;
-        foreach ($bag->items as &$item) {
-            $price += $item->price - $item->price * ($item->discount + $bag->personDisc + $bag->forSaleDisc) / 100;
+        foreach ($bag->getItems() as &$item) {
+            $price += $item->price - $item->price * ($item->discount + $bag->getPersonDisc() + $bag->getForSaleDisc()) / 100;
         }
         return $price;
     }

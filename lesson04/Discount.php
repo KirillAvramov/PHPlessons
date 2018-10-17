@@ -4,13 +4,13 @@ require 'Bag.php';
 
 class Discount
 {
-    public function sale(int $discount, Bag $bag)
+    public function sale(int $disc, Bag $bag)
     {
-        $bag->forSaleDisc = $discount;
+        $bag->setSaleDisc($disc);
     }
 
-    public function person(int $discount, Bag $bag)
+    public function person(int $disc, Bag $bag)
     {
-        $bag->personDisc = $discount;
+        $bag->setPersonDisc($disc);
     }
 }
