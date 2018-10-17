@@ -4,7 +4,6 @@
     <list default="true" id="22b049e1-ff20-46ce-895d-4fb08ba43faf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/lesson04/Bag.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/Bag.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson04/Discount.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/Discount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson04/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/Item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson04/Shopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/Shopping.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +122,7 @@
           <entry key="init" value="4" />
           <entry key="json" value="9" />
           <entry key="md" value="1" />
-          <entry key="php" value="248" />
+          <entry key="php" value="249" />
           <entry key="sql" value="2" />
           <entry key="yii" value="4" />
           <entry key="yii_test" value="7" />
@@ -135,7 +134,7 @@
           <entry key="CSS" value="1" />
           <entry key="JSON" value="9" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="263" />
+          <entry key="PHP" value="264" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="2" />
           <entry key="YAML" value="5" />
@@ -148,7 +147,7 @@
           <entry key="gitignore" value="6" />
           <entry key="htaccess" value="14" />
           <entry key="json" value="5" />
-          <entry key="php" value="11914" />
+          <entry key="php" value="12610" />
           <entry key="txt" value="4" />
           <entry key="yii" value="2" />
           <entry key="yii_test" value="6" />
@@ -157,7 +156,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="5" />
-          <entry key="PHP" value="11922" />
+          <entry key="PHP" value="12618" />
           <entry key="PLAIN_TEXT" value="58" />
           <entry key="htaccess" value="14" />
         </counts>
@@ -184,11 +183,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson04/Bag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="129">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson04/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -196,17 +204,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson04/Item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-207">
               <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson04/Discount.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -223,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson04/Shopping.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="117" selection-start-line="38" selection-start-column="117" selection-end-line="38" selection-end-column="117" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -254,7 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lesson01/1_exercise.php" />
         <option value="$PROJECT_DIR$/humans/Manager.php" />
         <option value="$PROJECT_DIR$/humans/main.php" />
         <option value="$PROJECT_DIR$/humans/Employee.php" />
@@ -301,10 +308,11 @@
         <option value="$PROJECT_DIR$/lesson04/DbQuery.php" />
         <option value="$PROJECT_DIR$/lesson04/Db.php" />
         <option value="$PROJECT_DIR$/demo/fuck.php" />
-        <option value="$PROJECT_DIR$/lesson04/Discount.php" />
         <option value="$PROJECT_DIR$/lesson04/Item.php" />
-        <option value="$PROJECT_DIR$/lesson04/Bag.php" />
+        <option value="$PROJECT_DIR$/lesson04/Discount.php" />
         <option value="$PROJECT_DIR$/lesson04/Shopping.php" />
+        <option value="$PROJECT_DIR$/lesson04/main.php" />
+        <option value="$PROJECT_DIR$/lesson04/Bag.php" />
       </list>
     </option>
   </component>
@@ -330,7 +338,7 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="7" />
     <option name="y" value="-19" />
     <option name="width" value="1346" />
@@ -489,12 +497,12 @@
       <workItem from="1539350043648" duration="1005000" />
       <workItem from="1539387909389" duration="30494000" />
       <workItem from="1539690076447" duration="22907000" />
-      <workItem from="1539733253011" duration="15549000" />
+      <workItem from="1539733253011" duration="18817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222382000" />
+    <option name="totallyTimeSpent" value="225650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,7 +514,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.33585477" />
@@ -523,13 +531,35 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49394855" visible="true" weight="0.2852459" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49394855" visible="true" weight="0.2852459" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5060514" side_tool="true" weight="0.2852459" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.33585477" />
+      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.26928896" />
+      <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.26928896" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4977307" weight="0.3617021" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49394855" visible="true" weight="0.2852459" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5060514" side_tool="true" weight="0.2852459" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -554,7 +584,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/GiiCest.php" />
     <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/HomeCest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -780,20 +809,6 @@
         <state relative-caret-position="-1244" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/Shopping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="117" selection-start-line="38" selection-start-column="117" selection-end-line="38" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson04/Db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -801,17 +816,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/Bag.php">
+    <entry file="file://$PROJECT_DIR$/lesson04/Discount.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/Discount.php">
+    <entry file="file://$PROJECT_DIR$/lesson04/Item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="-207">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Shopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Bag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>

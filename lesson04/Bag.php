@@ -1,20 +1,30 @@
 <?php
 
-require 'Item.php';
+require_once 'Item.php';
 
 class Bag
 {
     private $forSaleDisc = 0;
     private $personDisc = 0;
-    private $items = array(Item::class);
+    private $items = array();
 
     public function __construct()
     {
     }
 
-    public function addItem(Item $item)
+    public function showBag()
     {
-        $this->items[] = $item;
+        foreach ($this->getItems() as &$item) {
+            echo "Name: {$item->getName()}     Price: {$item->getPrice()}     Price with discount: " .
+                ($item->getPrice() - $item->getPrice() * ($item->getDiscount() + $this->getPersonDisc() + $this->getForSaleDisc()) / 100 ). PHP_EOL;
+        }
+    }
+
+    public function addItem(Item $item, int $count = 1)
+    {
+        for ($i = 1; $i <= $count; $i++) {
+            $this->items[] = $item;
+        }
     }
 
     public function setSaleDisc(int $disc)

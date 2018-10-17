@@ -1,21 +1,14 @@
 <?php
 
-require 'Item.php';
-require 'Bag.php';
+require_once 'Item.php';
+require_once 'Bag.php';
 
 class Shopping
 {
-    public static function showBag(Bag $bag)
-    {
-        foreach ($bag->getItems() as &$item) {
-            echo "Name: {$item->name}     Price: {$item->price}     Price with discount: " .
-                $item->price - $item->price * ($item->discount + $bag->getPersonDisc() + $bag->getForSaleDisc()) / 100 . PHP_EOL;
-        }
-    }
 
-    public static function getItemCount(Bab $bag)
+    public static function getItemCount(Bag $bag)
     {
-        return count($bag->items);
+        return count($bag->getItems());
     }
 
     public static function showItemsCount(Bag $bag)
@@ -26,8 +19,11 @@ class Shopping
     public static function getPrice(Bag $bag)
     {
         $price = 0;
+        /**
+         * @var Item $item
+         */
         foreach ($bag->getItems() as &$item) {
-            $price += $item->price;
+            $price += $item->getPrice();
         }
         return $price;
     }
@@ -35,8 +31,11 @@ class Shopping
     public static function getDiscPrice(Bag $bag)
     {
         $price = 0;
+        /**
+         * @var Item $item
+         */
         foreach ($bag->getItems() as &$item) {
-            $price += $item->price - $item->price * ($item->discount + $bag->getPersonDisc() + $bag->getForSaleDisc()) / 100;
+            $price += $item->getPrice() - $item->getPrice() * ($item->getDiscount() + $bag->getPersonDisc() + $bag->getForSaleDisc()) / 100;
         }
         return $price;
     }

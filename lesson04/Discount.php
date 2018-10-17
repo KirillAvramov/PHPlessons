@@ -1,6 +1,6 @@
 <?php
 
-require 'Bag.php';
+require_once 'Bag.php';
 
 class Discount
 {
