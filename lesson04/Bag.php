@@ -11,4 +11,10 @@ class Bag
     public function __construct()
     {
     }
+
+    public function addItem(Item $item)
+    {
+        ;$this->items[] = $item;
+    }
+
 }

@@ -5,11 +5,6 @@ require 'Bag.php';
 
 class Shopping
 {
-    public static function addItem(Item $item, Bag $bag)
-    {
-        $bag->items[] = $item;
-    }
-
     public static function showBag(Bag $bag)
     {
         foreach ($bag->items as &$item) {
