@@ -15,7 +15,6 @@ use Yii;
  *
  * @property FilmHasGenre[] $filmHasGenres
  * @property Genres[] $genres
- * @property Directors $director
  */
 class Films extends \yii\db\ActiveRecord
 {
@@ -33,11 +32,10 @@ class Films extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'director_id', 'country', 'date'], 'required'],
+            [['name', 'director_id', 'country'], 'required'],
             [['director_id'], 'integer'],
             [['date'], 'safe'],
             [['name', 'country'], 'string', 'max' => 45],
-            [['director_id'], 'exist', 'skipOnError' => true, 'targetClass' => Directors::className(), 'targetAttribute' => ['director_id' => 'id']],
         ];
     }
 
@@ -69,13 +67,5 @@ class Films extends \yii\db\ActiveRecord
     public function getGenres()
     {
         return $this->hasMany(Genres::className(), ['id' => 'genre_id'])->viaTable('film_has_genre', ['film_id' => 'id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getDirector()
-    {
-        return $this->hasOne(Directors::className(), ['id' => 'director_id']);
     }
 }

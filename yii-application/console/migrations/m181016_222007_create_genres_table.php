@@ -13,7 +13,8 @@ class m181016_222007_create_genres_table extends Migration
     public function safeUp()
     {
         $this->createTable('genres', [
-            'id' => $this->primaryKey(),
+            'id' => $this->primaryKey(11),
+            'name' => $this->string(45)->notNull(),
         ]);
     }
 

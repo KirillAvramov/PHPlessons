@@ -10,8 +10,6 @@ use Yii;
  * @property int $id
  * @property string $first_name
  * @property string $last_name
- *
- * @property Films[] $films
  */
 class Directors extends \yii\db\ActiveRecord
 {
@@ -44,13 +42,5 @@ class Directors extends \yii\db\ActiveRecord
             'first_name' => 'First Name',
             'last_name' => 'Last Name',
         ];
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getFilms()
-    {
-        return $this->hasMany(Films::className(), ['director_id' => 'id']);
     }
 }
