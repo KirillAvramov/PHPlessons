@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22b049e1-ff20-46ce-895d-4fb08ba43faf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/controllers/DirectorsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/controllers/FilmsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/controllers/FilmsGenreController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/controllers/GenresController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/directors/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/directors/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/directors/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/directors/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/directors/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/directors/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films-genre/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films-genre/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films-genre/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films-genre/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films-genre/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films-genre/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/films/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/genres/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/genres/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/genres/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/genres/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/genres/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/backend/views/genres/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/Directors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/DirectorsSearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/Films.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/FilmsGenre.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/FilmsGenreSearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/FilmsSearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/Genres.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/common/models/GenresSearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/console/migrations/m181016_213111_create_films_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii-application/console/migrations/m181016_213111_create_films_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/console/migrations/m181016_221851_create_film_has_genre_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/console/migrations/m181016_221908_create_directors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii-application/console/migrations/m181016_221908_create_directors_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii-application/console/migrations/m181016_222007_create_genres_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/yii-application/console/migrations/m181016_222007_create_genres_table.php" afterDir="false" />
-    </list>
+    <list default="true" id="22b049e1-ff20-46ce-895d-4fb08ba43faf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +118,7 @@
           <entry key="init" value="4" />
           <entry key="json" value="9" />
           <entry key="md" value="1" />
-          <entry key="php" value="225" />
+          <entry key="php" value="242" />
           <entry key="sql" value="2" />
           <entry key="yii" value="4" />
           <entry key="yii_test" value="7" />
@@ -172,7 +130,7 @@
           <entry key="CSS" value="1" />
           <entry key="JSON" value="9" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="240" />
+          <entry key="PHP" value="257" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SQL" value="2" />
           <entry key="YAML" value="5" />
@@ -181,11 +139,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="12" />
+          <entry key="dummy" value="48" />
           <entry key="gitignore" value="6" />
           <entry key="htaccess" value="14" />
           <entry key="json" value="5" />
-          <entry key="php" value="9431" />
+          <entry key="php" value="11524" />
           <entry key="txt" value="4" />
           <entry key="yii" value="2" />
           <entry key="yii_test" value="6" />
@@ -194,14 +152,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="5" />
-          <entry key="PHP" value="9439" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PHP" value="11532" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="htaccess" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="5" />
+          <entry key="PHP Class.type" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -222,66 +180,72 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/migrations/m181016_233859_create_junction_table_for_films_and_genres_tables.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/migrations/m181016_222007_create_genres_table.php">
+        <entry file="file://$PROJECT_DIR$/lesson04/Item.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/migrations/m181016_221908_create_directors_table.php">
+        <entry file="file://$PROJECT_DIR$/lesson04/Bag.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson04/Discount.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson04/Shopping.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/migrations/m181016_213111_create_films_table.php">
+        <entry file="file://$PROJECT_DIR$/lesson04/interface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/config/main-local.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/config/params.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yii-application/common/config/main-local.php">
+        <entry file="file://$PROJECT_DIR$/lesson04/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="221">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii-application/console/config/main.php">
+        <entry file="file://$PROJECT_DIR$/lesson02/humans/Manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state>
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="26" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson02/humans/Human.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1244" />
           </provider>
         </entry>
       </file>
@@ -310,7 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/koko.php" />
         <option value="$PROJECT_DIR$/Lesson01/1 exercise.php" />
         <option value="$PROJECT_DIR$/Lesson01/1_exercise.php" />
         <option value="$PROJECT_DIR$/humans/Manager.php" />
@@ -355,6 +318,13 @@
         <option value="$PROJECT_DIR$/yii-application/console/migrations/m181016_221908_create_directors_table.php" />
         <option value="$PROJECT_DIR$/yii-application/console/migrations/m181016_213111_create_films_table.php" />
         <option value="$PROJECT_DIR$/yii-application/common/config/main-local.php" />
+        <option value="$PROJECT_DIR$/lesson04/Item.php" />
+        <option value="$PROJECT_DIR$/lesson04/Bag.php" />
+        <option value="$PROJECT_DIR$/lesson04/Discount.php" />
+        <option value="$PROJECT_DIR$/lesson04/Shoping.php" />
+        <option value="$PROJECT_DIR$/lesson04/Shopping.php" />
+        <option value="$PROJECT_DIR$/lesson04/DbQuery.php" />
+        <option value="$PROJECT_DIR$/lesson04/Db.php" />
       </list>
     </option>
   </component>
@@ -380,7 +350,7 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="7" />
     <option name="y" value="-19" />
     <option name="width" value="1346" />
@@ -433,7 +403,12 @@
             <path>
               <item name="PHPlessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="yii-application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lesson02" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPlessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lesson04" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -539,12 +514,12 @@
       <workItem from="1539350043648" duration="1005000" />
       <workItem from="1539387909389" duration="30494000" />
       <workItem from="1539690076447" duration="22907000" />
-      <workItem from="1539733253011" duration="1454000" />
+      <workItem from="1539733253011" duration="13187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208287000" />
+    <option name="totallyTimeSpent" value="220020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +531,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.33585477" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.26928896" />
@@ -625,74 +600,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii-application/backend/web/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/yii">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/common/tests/unit.suite.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/yii_test.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/yii.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/frontend/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/console/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/ContactCest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/LoginCest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/backend/tests/functional.suite.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/SignupCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii-application/backend/tests/functional/GiiCest.php" />
     <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/GiiCest.php" />
     <entry file="file://$PROJECT_DIR$/yii-application/frontend/tests/functional/HomeCest.php">
@@ -856,13 +763,10 @@
     <entry file="file://$PROJECT_DIR$/yii-application/common/models/DirectorsSearch.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii-application/common/models/Films.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii-application/console/migrations/m181016_213111_create_films_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -883,6 +787,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bag.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02/humans/Employee.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii-application/common/models/Films.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02/humans/Student.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02/humans/Human.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02/humans/Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Shoping.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Bag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Shopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Discount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/interface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
