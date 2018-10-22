@@ -23,7 +23,7 @@ class Item
     /**
      * @return int
      */
-    public function getDiscount(): int
+    public function getDiscount()
     {
         return $this->discount;
     }
@@ -31,7 +31,7 @@ class Item
     /**
      * @return string
      */
-    public function getName(): string
+    public function getName()
     {
         return $this->name;
     }
@@ -39,8 +39,9 @@ class Item
     /**
      * @return int
      */
-    public function getPrice(): int
+    public function getPrice()
     {
         return $this->price;
     }
+
 }

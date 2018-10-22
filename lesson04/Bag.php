@@ -4,53 +4,27 @@ require_once 'Item.php';
 
 class Bag
 {
-    private $forSaleDisc = 0;
-    private $personDisc = 0;
+
     private $items = array();
 
     public function __construct()
     {
     }
 
-    public function showBag()
-    {
-        foreach ($this->getItems() as &$item) {
-            echo "Name: {$item->getName()}     Price: {$item->getPrice()}     Price with discount: " .
-                ($item->getPrice() - $item->getPrice() * ($item->getDiscount() + $this->getPersonDisc() + $this->getForSaleDisc()) / 100 ). PHP_EOL;
-        }
-    }
-
     public function addItem(Item $item, int $count = 1)
     {
-        for ($i = 1; $i <= $count; $i++) {
-            $this->items[] = $item;
+        if (!isset($this->items)) {
+            $this->items[] = ['item' => $item, 'count' => $count];
         }
-    }
 
-    public function setSaleDisc(int $disc)
-    {
-        $this->forSaleDisc = $disc;
-    }
+        foreach ($this->getItems() as &$select) {
+            if ($select['item']->getId() == $item->getId()) {
+                $select['count'] += $count;
+                return;
+            }
+        }
 
-    public function setPersonDisc(int $disc)
-    {
-        $this->personDisc = $disc;
-    }
-
-    /**
-     * @return int
-     */
-    public function getForSaleDisc(): int
-    {
-        return $this->forSaleDisc;
-    }
-
-    /**
-     * @return int
-     */
-    public function getPersonDisc(): int
-    {
-        return $this->personDisc;
+        $this->items[] = ['item' => $item, 'count' => $count];
     }
 
     /**
@@ -59,6 +33,15 @@ class Bag
     public function getItems()
     {
         return $this->items;
+    }
+
+    public function getItemsCount(): int
+    {
+        $count = 0;
+        foreach ($this->getItems() as &$item) {
+            $count += $item['count'];
+        }
+        return $count;
     }
 
 }

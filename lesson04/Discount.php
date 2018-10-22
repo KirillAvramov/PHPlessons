@@ -1,16 +1,35 @@
 <?php
 
-require_once 'Bag.php';
 
 class Discount
 {
-    public function sale(int $disc, Bag $bag)
+
+    private $forSaleDisc = 0;
+    private $personDisc = 0;
+
+    /**
+     * @return int
+     */
+    public function getPersonDisc(): int
     {
-        $bag->setSaleDisc($disc);
+        return $this->personDisc;
     }
 
-    public function person(int $disc, Bag $bag)
+    /**
+     * @return int
+     */
+    public function getForSaleDisc(): int
     {
-        $bag->setPersonDisc($disc);
+        return $this->forSaleDisc;
+    }
+
+    public function setSaleDisc(int $disc)
+    {
+        $this->forSaleDisc = $disc;
+    }
+
+    public function setPersonDisc(int $disc)
+    {
+        $this->personDisc = $disc;
     }
 }
