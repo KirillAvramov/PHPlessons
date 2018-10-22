@@ -33,6 +33,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'director_id',
             'country',
             'date',
+            'created_at:dateTime',
+            'updated_at:dateTime',
+            'author',
         ],
     ]) ?>
 

@@ -3,7 +3,8 @@
 namespace common\models;
 
 use Yii;
-
+use yii\behaviors\TimestampBehavior;
+use common\components\MyBehavior;
 /**
  * This is the model class for table "films".
  *
@@ -12,6 +13,7 @@ use Yii;
  * @property int $director_id
  * @property string $country
  * @property string $date
+ * @property string $author
  *
  * @property FilmHasGenre[] $filmHasGenres
  * @property Genres[] $genres
@@ -24,6 +26,25 @@ class Films extends \yii\db\ActiveRecord
     public static function tableName()
     {
         return 'films';
+    }
+
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => TimestampBehavior::className(),
+                'attributes' => [
+                    \yii\db\ActiveRecord::EVENT_BEFORE_INSERT => ['created_at', 'updated_at'],
+                    \yii\db\ActiveRecord::EVENT_BEFORE_UPDATE => ['updated_at'],
+                ],
+            ],
+
+            [
+                'class' => MyBehavior::className(),
+                'film' => $this,
+                'user' => Yii::$app->getUser()->getId(),
+            ]
+        ];
     }
 
     /**
