@@ -72,7 +72,17 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $cookies = Yii::$app->request->cookies;
+        $visits = $cookies->getValue('visits', 0) + 1;
+        $cookies = Yii::$app->response->cookies;
+        $cookies->add(new \yii\web\Cookie([
+            'name' => 'visits',
+            'value' => $visits,
+        ]));
+
+        return $this->render('index', [
+            'visits' => $visits,
+        ]);
     }
 
     /**

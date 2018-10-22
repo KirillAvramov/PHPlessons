@@ -10,7 +10,9 @@ $this->title = 'My Yii Application';
         <h1>Congratulations!</h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
-
+        <p>You have visited this site <?= \yii\helpers\Html::encode($visits) ?> time(s).</p>
+        <p>The last time your authorization was <?= date('d.m.Y \a\t H:i:s',
+                \common\models\User::findIdentity($id)->last_authorization) ?> .</p>
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div>
 

@@ -1,11 +1,14 @@
 <?php
+
 namespace backend\controllers;
 
 use Yii;
+use yii\db\ActiveRecord;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use yii\web\User;
 
 /**
  * Site controller
@@ -60,7 +63,23 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $cookies = Yii::$app->request->cookies;
+        $visits = $cookies->getValue('visits', 0) + 1;
+        $cookies = Yii::$app->response->cookies;
+        $cookies->add(new \yii\web\Cookie([
+            'name' => 'visits',
+            'value' => $visits,
+        ]));
+
+        $user = Yii::$app->getUser();
+        $userSign = \common\models\User::findIdentity($user->id);
+
+        $user->on(User::EVENT_AFTER_LOGIN, $userSign->updateLastAuthorization());
+
+        return $this->render('index', [
+            'visits' => $visits,
+            'id' => $user->id,
+        ]);
     }
 
     /**
